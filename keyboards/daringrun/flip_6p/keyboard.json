@@ -1,10 +1,8 @@
 {
-    "manufacturer": "Daring Run",
     "keyboard_name": "Flip 6p",
+    "manufacturer": "Daring Run",
+    "url": "https://d-r.works/collections/flip-6p",
     "maintainer": "chillKB",
-    "processor": "STM32F103",
-    "bootloader": "uf2boot",
-
     "usb": {
         "vid": "0x2024",
         "pid": "0x0421",
@@ -12,7 +10,6 @@
         "force_nkro": true,
         "polling_interval": 1
     },
-
     "features": {
         "bootmagic": true,
         "extrakey": true,
@@ -20,20 +17,19 @@
         "nkro": true,
         "rgb_matrix": true
     },
-
-    "matrix_pins": {
-        "cols": ["A3", "A2", "A1", "A0", "A4", "A5", "A7", "B0", "B1", "B12", "B13", "B14", "A15", "B3", "B4", "B5", "B6", "B7", "A8"],
-        "rows": ["B15", "B9", "B11", "B10", "B8"]
-    },
-    "diode_direction": "COL2ROW",
-
+    "processor": "STM32F103",
+    "bootloader": "uf2boot",
     "eeprom": {
         "wear_leveling": {
             "driver": "embedded_flash",
             "backing_size": 4096
         }
     },
-
+    "matrix_pins": {
+        "cols": ["A3", "A2", "A1", "A0", "A4", "A5", "A7", "B0", "B1", "B12", "B13", "B14", "A15", "B3", "B4", "B5", "B6", "B7", "A8"],
+        "rows": ["B15", "B9", "B11", "B10", "B8"]
+    },
+    "diode_direction": "COL2ROW",
     "ws2812": {
         "pin": "A6",
         "driver": "pwm"
@@ -56,16 +52,16 @@
             "val": 134
         },
         "layout": [
-            {"flags": 1, "x": 0, "y": 0},
-            {"flags": 4, "x": 17, "y": 0},
-            {"flags": 4, "x": 34, "y": 0},
-            {"flags": 4, "x": 51, "y": 0},
-            {"flags": 4, "x": 68, "y": 0},
-            {"flags": 4, "x": 85, "y": 64},
-            {"flags": 4, "x": 102, "y": 64},
-            {"flags": 4, "x": 119, "y": 64},
-            {"flags": 4, "x": 136, "y": 64},
-            {"flags": 4, "x": 153, "y": 64}
+            {"flags": 255, "x": 0, "y": 0},
+            {"flags": 255, "x": 17, "y": 0},
+            {"flags": 255, "x": 34, "y": 0},
+            {"flags": 255, "x": 51, "y": 0},
+            {"flags": 255, "x": 68, "y": 0},
+            {"flags": 255, "x": 85, "y": 64},
+            {"flags": 255, "x": 102, "y": 64},
+            {"flags": 255, "x": 119, "y": 64},
+            {"flags": 255, "x": 136, "y": 64},
+            {"flags": 255, "x": 153, "y": 64}
         ]
     },
 
