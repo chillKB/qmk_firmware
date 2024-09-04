@@ -1,3 +1,4 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
 #include QMK_KEYBOARD_H
 
 enum layers {
@@ -8,7 +9,7 @@ enum layers {
 };
 
 enum custom_keycodes {
-  TO_MAC = SAFE_RANGE,
+  TO_MAC = QK_USER,
   TO_WIN,
 };
 
