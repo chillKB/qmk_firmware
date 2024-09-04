@@ -25,3 +25,5 @@ Enter the bootloader in 3 ways:
 * **Bootmagic reset**: Hold down the top left key of the main 60% cluster (usually Escape) and plug in the keyboard
 * **Physical reset pads**: Remove the caps lock keycap and briefly short the two small circular pads to the right of the switch
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+
+Once you enter the bootloader, the keyboard will show up as a USB storage device on your computer. You can drag and drop a `.uf2` firmware file to flash it, or use the flash command above.
