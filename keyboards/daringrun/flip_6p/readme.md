@@ -1,6 +1,6 @@
 # Flip 6p
 
-![Flip 6p](https://imgur.com/vWZ0y4x.png)
+![Flip 6p](https://i.imgur.com/vWZ0y4x.png)
 
 *A 60% with flippable and mirrorable numpad, allowing for traditional or southpaw layouts. Removable blockers for WKL and HHKB layouts are also supported.*
 
