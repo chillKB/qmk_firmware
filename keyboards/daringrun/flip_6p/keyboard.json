@@ -7,8 +7,7 @@
         "vid": "0x2024",
         "pid": "0x0421",
         "device_version": "0.0.1",
-        "force_nkro": true,
-        "polling_interval": 1
+        "force_nkro": true
     },
     "features": {
         "bootmagic": true,
@@ -64,7 +63,6 @@
             {"flags": 255, "x": 224, "y": 64}
         ]
     },
-
     "layouts": {
         "LAYOUT": {
             "layout": [
